@@ -3,8 +3,8 @@ import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-  <Layout>
-  <div>Hello world!</div>
+  <Layout>    
+      <h1>Inicio</h1>
   </Layout>
   )
 }
