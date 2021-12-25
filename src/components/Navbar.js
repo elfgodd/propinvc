@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link to="/">
           <img src={logo} alt="Encuentra las mejores propiedades" />
         </Link>
-        <button className="nav-btn" onClick={() => setShow(false)}>
+        <button className="nav-btn" onClick={() => setShow(!show)}>
           <FiAlignJustify />
         </button>
         </div>
