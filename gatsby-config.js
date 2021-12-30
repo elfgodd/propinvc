@@ -6,6 +6,17 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'PropinVC Propiedades Inversiones',
+    description: 'Encuentra las mejores propiedades rapido muy rapido',
+    author: '@AlienRoom',
+    person: {name:'ElfGodd', age:' 34'},
+    simpleData:['item1', 'item2'],
+    complexData: [
+      { name: 'Alberto', age: 34 },
+      { name: 'Yarelis', age: 30 },
+    ],
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,

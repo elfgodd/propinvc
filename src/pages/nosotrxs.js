@@ -20,7 +20,7 @@ const About = () => {
               Hola somos propinVC
             </p>
             <Link t='/contacto' className='btn'>
-              contacto
+              contacto 
             </Link>
           </article>
           <StaticImage
